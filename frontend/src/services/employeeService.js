@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8080/api/employees";
-
+const REST_API_BASE_URL = 'https://employee-management-backend-1cyi.onrender.com/api/employees';
 // Centralized API calls for the Employee resource.
 // Keeping all axios calls in one place makes components cleaner
 // and makes it easy to change the backend URL in one spot.
