@@ -1,5 +1,10 @@
 # Employee Management System (Full Stack CRUD App)
 
+# Employee Management System
+
+> **Live Demo:** [Click here to view live application](https://your-app-name.vercel.app)  
+> **Backend API:** https://employee-management-backend-1cyi.onrender.com
+
 A full-stack web application to manage employee records — built with **Spring Boot** (Java) on the backend, **React** on the frontend, and **MySQL** as the database. Supports full CRUD operations (Create, Read, Update, Delete), search, and filtering by department.
 
 ## Tech Stack
