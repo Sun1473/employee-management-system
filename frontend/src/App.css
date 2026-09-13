@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #222;
+}
+
+.app-header {
+  background-color: #1a3c6e;
+  color: white;
+  padding: 24px 40px;
+}
+
+.app-header h1 {
+  margin: 0 0 4px 0;
+  font-size: 24px;
+}
+
+.app-header p {
+  margin: 0;
+  opacity: 0.85;
+  font-size: 14px;
+}
+
+.app-main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.employee-form {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  margin-bottom: 30px;
+}
+
+.employee-form h2 {
+  margin-top: 0;
+  color: #1a3c6e;
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 13px;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.form-group input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.error {
+  color: #c0392b;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.form-actions {
+  margin-top: 16px;
+}
+
+button {
+  background-color: #1a3c6e;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+button:hover {
+  background-color: #2c5282;
+}
+
+button.secondary {
+  background-color: #888;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.list-section {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.list-header h2 {
+  margin: 0;
+  color: #1a3c6e;
+}
+
+.search-box {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 220px;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th, .employee-table td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}
+
+.employee-table th {
+  background-color: #f0f4fa;
+  color: #1a3c6e;
+}
+
+.link-btn {
+  background: none;
+  color: #2c5282;
+  padding: 2px 6px;
+  margin-right: 4px;
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.link-btn.danger {
+  color: #c0392b;
+}
+
+.empty-state {
+  color: #888;
+  font-style: italic;
+}
